@@ -9896,7 +9896,10 @@ var Console = function (_React$Component) {
             // Right Key
             else if (e.keyCode === 39) _this2.moveCursor('RIGHT');
               // Enter Key
-              else if (e.keyCode === 13) _this2.handleSubmit();
+              else if (e.keyCode === 13) {
+                  e.preventDefault();
+                  _this2.handleSubmit();
+                }
       });
     }
   }, {
@@ -9917,8 +9920,8 @@ var Console = function (_React$Component) {
     key: 'handleSubmit',
     value: function handleSubmit() {
       // Reset Text Area
-      var elem = document.getElementsByClassName('input')[0];
-      elem.value = '';
+      var textArea = document.getElementById('replTextArea');
+      textArea.value = '';
       // Get final Prompt
       var prompt = this.state.currentPrompt.beforeCursor + this.state.currentPrompt.afterCursor;
       // Evaluate the Prompt
@@ -10032,8 +10035,9 @@ var Console = function (_React$Component) {
           _react2.default.createElement(
             'span',
             null,
-            'Hussein\'s repl'
+            'Native Browser JavaScript'
           ),
+          _react2.default.createElement('br', null),
           _react2.default.createElement('br', null),
           this.state.historyToDisplay.map(function (elem, idx) {
             if (elem.type === 'prompt') {
@@ -12170,7 +12174,7 @@ exports = module.exports = __webpack_require__(32)(undefined);
 
 
 // module
-exports.push([module.i, ".console {\n  height: 100%;\n  background-color: #0e1628; }\n\nbody {\n  height: 95vh; }\n\n.consoleInterative {\n  height: 95%;\n  overflow-y: auto;\n  color: #F4FFFF;\n  margin-left: 20px; }\n\n.panel {\n  height: 5%;\n  color: #F4FFFF;\n  align-items: center;\n  display: flex;\n  margin: auto;\n  width: 50%; }\n\nbutton {\n  position: fixed;\n  margin-left: 25%;\n  vertical-align: middle;\n  width: 100px;\n  height: 30px;\n  text-align: center;\n  background-color: transparent;\n  border: 2px solid white;\n  color: white;\n  cursor: pointer; }\n", ""]);
+exports.push([module.i, ".console {\n  height: 100%;\n  background-color: #0e1628; }\n\nbody {\n  height: 95vh; }\n\n.consoleInterative {\n  height: 95%;\n  overflow-y: auto;\n  color: #F4FFFF;\n  margin-left: 20px; }\n\n.panel {\n  height: 5%;\n  color: #F4FFFF;\n  align-items: center;\n  display: flex;\n  margin: auto;\n  width: 50%; }\n\nbutton {\n  position: fixed;\n  margin-left: 25%;\n  vertical-align: middle;\n  width: 100px;\n  height: 30px;\n  text-align: center;\n  background-color: transparent;\n  border: 2px solid white;\n  color: white;\n  cursor: pointer; }\n\nbutton:hover {\n  background-color: #002F2F; }\n", ""]);
 
 // exports
 

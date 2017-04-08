@@ -7,7 +7,7 @@
     "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "build-watch": "webpack -w"
+    "build-watch": "webpack --watch"
   },
   "author": "Hussein Farah",
   "license": "ISC",

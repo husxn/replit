@@ -34,7 +34,10 @@ export default class Console extends React.Component {
       // Right Key
       else if(e.keyCode === 39) this.moveCursor('RIGHT')
       // Enter Key
-      else if(e.keyCode === 13) this.handleSubmit()
+      else if(e.keyCode === 13){ 
+        e.preventDefault()
+        this.handleSubmit()
+      }
     })
   }
 
@@ -56,8 +59,8 @@ export default class Console extends React.Component {
 
   handleSubmit() {
     // Reset Text Area
-    let elem = document.getElementsByClassName('input')[0]
-    elem.value = ''
+    let textArea = document.getElementById('replTextArea')
+    textArea.value = ''
     // Get final Prompt
     let prompt = this.state.currentPrompt.beforeCursor + this.state.currentPrompt.afterCursor
     // Evaluate the Prompt
@@ -149,6 +152,7 @@ export default class Console extends React.Component {
         <div className="panel">  <button onClick={() => this.clearHistory()}> Clear History </button> </div>
         <div className="consoleInterative">
           <span>Native Browser JavaScript</span>
+          <br />
           <br />
         {
           (

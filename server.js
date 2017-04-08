@@ -10,5 +10,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(1337, () => {
-  console.log('mans out here listening')
+  console.log('listening on port 1337')
 })
