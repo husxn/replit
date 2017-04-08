@@ -10032,7 +10032,7 @@ var Console = function (_React$Component) {
           _react2.default.createElement(
             'span',
             null,
-            'Native Browser JavaScript'
+            'Hussein\'s repl'
           ),
           _react2.default.createElement('br', null),
           this.state.historyToDisplay.map(function (elem, idx) {

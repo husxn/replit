@@ -148,7 +148,7 @@ export default class Console extends React.Component {
       <div className="console">
         <div className="panel">  <button onClick={() => this.clearHistory()}> Clear History </button> </div>
         <div className="consoleInterative">
-          <span>Hussein's repl</span>
+          <span>Native Browser JavaScript</span>
           <br />
         {
           (
