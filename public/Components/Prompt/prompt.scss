@@ -1,0 +1,42 @@
+.prompt {
+  height: 20px
+}
+
+.promptLine {
+  height: 100%
+}
+
+.promptIcon {
+  display: inline-block; 
+  height: 100%; 
+  color: #97ED8A;
+  margin-right: 20px
+}
+.userInput {
+  color: #97ED8A;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+.cursor {
+  display: inline-block;
+  width: 10px;
+  height: 15px;
+  background-color: white;
+}
+
+.history {
+  // color: #B64926
+}
+
+.input {
+    height: 2px;
+    width: 2px;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    overflow: hidden;
+    color: transparent;
+}
+.off {
+  background-color: transparent
+}

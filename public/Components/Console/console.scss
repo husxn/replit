@@ -1,0 +1,33 @@
+.console {
+  height: 100%;
+  background-color: rgb(14, 22, 40);
+}
+body {
+  height: 95vh
+}
+.consoleInterative {
+  height: 95%;
+  overflow-y: auto;
+  color: #F4FFFF;
+  margin-left: 20px
+}
+.panel {
+  height: 5%;
+  color: #F4FFFF;
+  align-items: center; 
+  display: flex;
+  margin: auto;
+  width: 50%
+}
+button {
+  position: fixed;
+  margin-left: 25%;
+  vertical-align: middle;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+}
