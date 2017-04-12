@@ -1,7 +1,7 @@
 {
   "name": "react-replEmulator",
   "version": "1.0.0",
-  "description": "a small terminal emulator",
+  "description": "a small repl component in react",
   "main": "lib/index.js",
   "scripts": {
     "start": "nodemon server.js",
@@ -12,24 +12,24 @@
   "author": "Hussein Farah",
   "license": "ISC",
   "dependencies": {
-    "babel-loader": "^6.4.1",
-    "babel-preset-es2015": "^6.24.0",
-    "babel-preset-react": "^6.23.0",
-    "express": "^4.15.2",
-    "html-loader": "^0.4.5",
-    "node-sass": "^4.5.2",
-    "nodemon": "^1.11.0",
-    "path": "^0.12.7",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "style-loader": "^0.16.1",
-    "webpack": "^2.3.3"
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
   },
   "devDependencies": {
     "babel": "^6.23.0",
-    "babel-core": "^6.24.0",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.0",
+    "express": "^4.15.2",
+    "html-loader": "^0.4.5",
+    "node-sass": "^4.5.2",
     "node-sass-loader": "^0.1.7",
-    "sass-loader": "^6.0.3"
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.3.3"
   }
 }
