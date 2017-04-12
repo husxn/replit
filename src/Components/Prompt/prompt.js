@@ -2,8 +2,8 @@ import React from 'react'
 import './prompt.scss'
 
 export default class Prompt extends React.Component {
-  constructor() {
-    super() 
+  constructor(props) {
+    super(props) 
   }
 
 

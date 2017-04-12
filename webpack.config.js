@@ -3,10 +3,10 @@
 const webpack = require('webpack')
 
 module.exports = {
-    entry: "./Public/index.js",
+    entry: "./src/index.js",
     output: {
         path: __dirname,
-        filename: "./Public/bundle.js"
+        filename: "./src/bundle.js"
     },
     module: {
         loaders: [

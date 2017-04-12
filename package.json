@@ -1,8 +1,8 @@
 {
-  "name": "terminal_emulator",
+  "name": "react-replEmulator",
   "version": "1.0.0",
   "description": "a small terminal emulator",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
