@@ -1,5 +1,1 @@
-import Repl from './Components/Repl/repl.js'
-
-export default {
-  Repl
-}
+module.exports = require('./Components/Repl/repl.js').default

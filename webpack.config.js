@@ -1,12 +1,13 @@
 'use strict';
 
 const webpack = require('webpack')
+const path = require('path')
 
 module.exports = {
     entry: "./src/indexLocal.js",
     output: {
-        path: __dirname,
-        filename: "./src/bundle.js"
+        path: path.join(__dirname, 'src'),
+        filename: 'bundle.js',
     },
     module: {
         loaders: [
