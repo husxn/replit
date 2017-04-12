@@ -1,11 +1,15 @@
 # Mini Repl
 Mini Repl is a small Javascript Repl environment
-Steps to use: 
-- Pull
+
+## How to use:
+- Clone
 - Install dependencies 
 - npm start
 - go to localhost:1337
 
-A preview of the repl:
+## Preview: 
+#### Console UI:
+![](https://i.gyazo.com/a344bf8742f036451c9de653dd0bfee4.png)
+#### History: 
+![](https://im2.ezgif.com/tmp/ezgif-2-1c22575293.gif)
 
-![](https://media.giphy.com/media/o8OFWOVaFjes8/giphy.gif)
