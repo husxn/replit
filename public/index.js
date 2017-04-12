@@ -1,7 +1,7 @@
 /* IMPORTS */
 import ReactDOM from 'react-dom'
 import React from 'react'
-import Console from './Components/Console/console.js'
+import Repl from './Components/Repl/repl.js'
 let root = document.getElementById('root')
 
-ReactDOM.render(<Console />, root)
+ReactDOM.render(<Repl />, root)
