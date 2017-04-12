@@ -21,7 +21,6 @@ export default class Repl extends React.Component {
     this.clearHistory = this.clearHistory.bind(this) 
     this.moveCursor = this.moveCursor.bind(this)
     this.setUpStyles = this.setUpStyles.bind(this)
-    console.log('props: ', this.props)
   }
 
   componentDidMount() {

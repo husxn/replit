@@ -10220,10 +10220,10 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var Prompt = function (_React$Component) {
   _inherits(Prompt, _React$Component);
 
-  function Prompt() {
+  function Prompt(props) {
     _classCallCheck(this, Prompt);
 
-    return _possibleConstructorReturn(this, (Prompt.__proto__ || Object.getPrototypeOf(Prompt)).call(this));
+    return _possibleConstructorReturn(this, (Prompt.__proto__ || Object.getPrototypeOf(Prompt)).call(this, props));
   }
 
   _createClass(Prompt, [{
@@ -10313,10 +10313,10 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var Response = function (_React$Component) {
   _inherits(Response, _React$Component);
 
-  function Response() {
+  function Response(props) {
     _classCallCheck(this, Response);
 
-    return _possibleConstructorReturn(this, (Response.__proto__ || Object.getPrototypeOf(Response)).call(this));
+    return _possibleConstructorReturn(this, (Response.__proto__ || Object.getPrototypeOf(Response)).call(this, props));
   }
 
   _createClass(Response, [{
