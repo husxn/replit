@@ -1,6 +1,10 @@
 # React Repl
 A small react library to render a terminal emulator
 
+## Preview: 
+#### Console UI:
+![](https://i.gyazo.com/a344bf8742f036451c9de653dd0bfee4.png)
+
 ## Installation(dev)
 ```bash
 $ git clone https://github.com/Husseinfarah93/replit.git
@@ -41,8 +45,5 @@ Go to localhost:1337
 ```
 
 
-## Preview: 
-#### Console UI:
-![](https://i.gyazo.com/a344bf8742f036451c9de653dd0bfee4.png)
 
 
