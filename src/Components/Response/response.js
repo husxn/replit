@@ -1,9 +1,14 @@
 import React from 'react'
-import './response.scss'
+import jss from 'js-stylesheet'
+// import './response.scss'
 
 export default class Response extends React.Component {
   constructor(props) {
     super(props) 
+  }
+  
+  componentDidMount() {
+    jss(require('../Style/style.js'))
   }
 
   render () {

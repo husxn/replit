@@ -1,7 +1,8 @@
 import React from 'react'
 import Prompt from '../Prompt/prompt.js'
 import Response from '../Response/response.js'
-import './console.scss'
+// import './console.scss' 
+import jss from 'js-stylesheet';
 
 export default class Console extends React.Component {
   constructor(props) {
@@ -11,6 +12,7 @@ export default class Console extends React.Component {
   }  
 
   componentDidMount() {
+    jss(require('../Style/style.js'))
     this.addListeners() 
   }
 

@@ -18,7 +18,9 @@ var _response = require('../Response/response.js');
 
 var _response2 = _interopRequireDefault(_response);
 
-require('./console.scss');
+var _jsStylesheet = require('js-stylesheet');
+
+var _jsStylesheet2 = _interopRequireDefault(_jsStylesheet);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -27,6 +29,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+// import './console.scss' 
+
 
 var Console = function (_React$Component) {
   _inherits(Console, _React$Component);
@@ -44,6 +48,7 @@ var Console = function (_React$Component) {
   _createClass(Console, [{
     key: 'componentDidMount',
     value: function componentDidMount() {
+      (0, _jsStylesheet2.default)(require('../Style/style.js'));
       this.addListeners();
     }
   }, {

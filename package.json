@@ -1,5 +1,5 @@
 {
-  "name": "react-replEmulator",
+  "name": "react-repl-emulator",
   "version": "1.0.0",
   "description": "a small repl component in react",
   "main": "dist/index.js",
@@ -20,6 +20,7 @@
     ]
   },
   "dependencies": {
+    "js-stylesheet": "0.0.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },

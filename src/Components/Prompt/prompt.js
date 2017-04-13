@@ -1,5 +1,6 @@
 import React from 'react'
-import './prompt.scss'
+import jss from 'js-stylesheet'
+// import './prompt.scss'
 
 export default class Prompt extends React.Component {
   constructor(props) {
@@ -9,6 +10,7 @@ export default class Prompt extends React.Component {
 
 
   componentDidMount() {
+    jss(require('../Style/style.js'))
     document.body.addEventListener('click', () => {
       let textArea = document.getElementById('replTextArea')
       textArea.focus()
