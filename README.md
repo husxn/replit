@@ -1,6 +1,10 @@
 # React Repl
 A small react library to render a terminal emulator
 
+## Preview: 
+#### Console UI:
+![](https://i.gyazo.com/a344bf8742f036451c9de653dd0bfee4.png)
+
 ## Installation(dev)
 ```bash
 $ git clone https://github.com/Husseinfarah93/replit.git
@@ -12,11 +16,11 @@ Go to localhost:1337
 ## Installation(lib)
 1. Install
 ```bash
-  npm install --save react-replEmulator
+  npm install --save react-repl-emulator
 ```
 2. Import
 ```js
-  import Repl from 'react-replEmulator'
+  import Repl from 'react-repl-emulator'
 ```
 3. Use
 ```js
@@ -41,8 +45,5 @@ Go to localhost:1337
 ```
 
 
-## Preview: 
-#### Console UI:
-![](https://i.gyazo.com/a344bf8742f036451c9de653dd0bfee4.png)
 
 
